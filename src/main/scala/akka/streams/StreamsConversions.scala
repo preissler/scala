@@ -1,14 +1,12 @@
 package akka.streams
 
 import java.text.SimpleDateFormat
-import java.util.Date
 
 import akka.actor.ActorSystem
 import akka.stream.ClosedShape
-import akka.stream.scaladsl.{GraphDSL, Merge, MergePreferred, RestartSource, RunnableGraph, Sink, Source, ZipWith}
+import akka.stream.scaladsl.{GraphDSL, RunnableGraph, Sink, Source, ZipWith}
 
 import scala.io.{Source => SSource}
-import scala.concurrent.duration._
 
 object StreamsConversions extends App {
 
